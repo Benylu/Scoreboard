@@ -1,0 +1,754 @@
+
+
+#wrapper {
+    margin: auto;
+    margin-top: 5rem;
+    margin-left: 16rem;
+    width: 73%;
+    height: 20rem;
+    border: 3px solid #21e61e;
+    border-radius: 123px;
+    background-color: black;
+    padding: 10px;
+}
+#image {
+    width: 23rem;
+    height: 23rem;
+    margin-left: -12rem;
+    margin-top: -2rem;
+}
+
+#leftWing {
+    display: block;
+    width: 10rem;
+    height: 10rem;
+}
+
+.buttons1 {
+    width: 7rem;
+    display: block;
+    margin-left: 3rem;
+    margin-top: 4.2rem;
+    margin-bottom: 0rem;
+}
+.buttons2 {
+    width: 11rem;
+    display: block;
+    margin-left: 2.5rem;
+    margin-top: -1rem;
+    margin-bottom: 0rem;
+}
+.buttons3 {
+    width: 7rem;
+    display: block;
+    margin-left: 3rem;
+    margin-top: 5.2rem;
+    margin-bottom: 0rem;
+}
+#buttonPlus1 {
+    font-size: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: red;
+}
+#buttonPlus2{
+    font-size: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: red;
+}
+#buttonMinus1 {
+    font-size: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: red;
+}
+#buttonMinus2 {
+    font-size: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: red;
+}
+
+#start {
+    font-size: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: red;
+}
+#stop{
+    font-size: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: red;
+}
+#reset{
+    font-size: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: red;
+}
+#middlePart {
+    display: block;
+    width: 38rem;
+    height: 10rem;
+    margin-left: 10rem;
+    margin-top: -10rem;
+}
+
+#homeTxt {
+    font-size: 27px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0rem;
+    margin-bottom: 1rem;
+}
+#timerTxt{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#awayTxt{
+    font-size: 27px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#periodTxt{
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+#gameTimer {
+    margin-bottom: 14px;
+    margin-top: -5px;
+}
+#gamePeriod {
+    margin-top: -8px;
+}
+#score1{
+    font-size: 61px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: -2rem;
+}
+#score2 {
+    font-size: 61px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: -2.6rem;
+}
+#middleOne {
+    background-color: white;
+    display: block;
+    width: 13rem;
+    height: 10rem;
+    margin-left: -3rem;
+    border: 2px solid #020202;
+    border-radius: 28px;
+    margin-top: 4rem;
+    text-align: center;
+}
+#middleTwo {
+    background-color: white;
+    display: block;
+    text-align: center;
+    width: 16rem;
+    height: 10rem;
+    margin-left: 10rem;
+    margin-top: -10rem;
+    margin-bottom: 8rem;
+    border: 2px solid black;
+    border-radius: 26px;
+}
+#middleThree {
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 26px;
+    width: 19rem;
+    width: 12rem;
+    height: 10rem;
+    margin-left: 26rem;
+    margin-top: -18rem;
+}
+#rightWing {
+    background-color: #ffffff;
+    display: block;
+    border: 5px solid #0a0a0a;
+    border-radius: 20px;
+    width: 9rem;
+    height: 6rem;
+    margin-left: 47rem;
+    margin-top: -8rem;
+    text-align: center;
+}
+
+/* SMALL&MEDIUM */
+
+@media only screen and (min-width:480px) {
+    #wrapper {
+        margin: auto;
+        margin-top: 2rem;
+        margin-left: 9rem;
+        margin-right: 9rem;
+        width: 500px;
+        height: 36rem;
+        border: 3px solid #21e61e;
+        border-radius: 123px;
+        background-color: black;
+        padding: 10px;
+    }
+    #image {
+        width: 8rem;
+        height: 8rem;
+        margin-left: 11rem;
+        margin-top: -3rem;
+    }
+    
+    #leftWing {
+        display: block;
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    .buttons1 {
+        width: 7rem;
+        display: block;
+        margin-left: 1.2rem;
+        margin-top: 3.2rem;
+        margin-bottom: 0rem;
+    }
+    .buttons2 {
+        width: 11rem;
+        display: block;
+        margin-left: 4.5rem;
+        margin-top: -1rem;
+        margin-bottom: 0rem;
+        position: static;
+    }
+    .buttons3 {
+        width: 7rem;
+        display: block;
+        margin-left: 1.4rem;
+        margin-top: 4.3rem;
+        margin-bottom: 0rem;
+    }
+    #buttonPlus1 {
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    #buttonPlus2{
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    #buttonMinus1 {
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    #buttonMinus2 {
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    
+    #start {
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    #stop{
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    #reset{
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    #middlePart {
+        display: block;
+        width: 38rem;
+        height: 10rem;
+        margin-left: 10rem;
+        margin-top: -10rem;
+    }
+    
+    #homeTxt {
+        font-size: 27px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+    }
+    #timerTxt{
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    #awayTxt{
+        font-size: 27px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    #periodTxt{
+        margin-top: 2px;
+        margin-bottom: 5px;
+    }
+    #gameTimer {
+        margin-bottom: 14px;
+        margin-top: -5px;
+    }
+    #gamePeriod {
+        margin-top: -8px;
+    }
+    #score1{
+        font-size: 61px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: -2rem;
+    }
+    #score2 {
+        font-size: 61px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: -2.6rem;
+    }
+    #middleOne {
+        background-color: white;
+        display: block;
+        width: 10rem;
+        height: 9rem;
+        margin-left: -8rem;
+        border: 2px solid #020202;
+        border-radius: 28px;
+        margin-top: 4rem;
+        text-align: center;
+    }
+    #middleTwo {
+        background-color: white;
+        display: block;
+        text-align: center;
+        width: 20rem;
+        height: 10rem;
+        margin-left: -5rem;
+        margin-top: 4rem;
+        margin-bottom: 8rem;
+        border: 2px solid black;
+        border-radius: 26px;
+    }
+    #middleThree {
+        background-color: white;
+        border: 2px solid black;
+        text-align: center;
+        border-radius: 26px;
+        width: 19rem;
+        width: 10rem;
+        height: 9rem;
+        margin-left: 8rem;
+        margin-top: -31rem;
+    }
+    #rightWing {
+        background-color: #ffffff;
+        display: block;
+        border: 5px solid #0a0a0a;
+        border-radius: 20px;
+        width: 10rem;
+        height: 6rem;
+        margin-left: 10rem;
+        margin-top: 14rem;
+        text-align: center;
+    }
+}
+/* LARGE */
+
+@media only screen and (min-width:800px) {
+    #wrapper {
+        margin: auto;
+        margin-top: 2rem;
+        margin-left: 16rem;
+        margin-right: 9rem;
+        width: 500px;
+        height: 36rem;
+        border: 3px solid #21e61e;
+        border-radius: 123px;
+        background-color: black;
+        padding: 10px;
+    }
+    #image {
+        width: 8rem;
+        height: 8rem;
+        margin-left: 11rem;
+        margin-top: -3rem;
+    }
+    
+    #leftWing {
+        display: block;
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    .buttons1 {
+        width: 7rem;
+        display: block;
+        margin-left: 1.2rem;
+        margin-top: 3.2rem;
+        margin-bottom: 0rem;
+    }
+    .buttons2 {
+        width: 11rem;
+        display: block;
+        margin-left: 4.5rem;
+        margin-top: -1rem;
+        margin-bottom: 0rem;
+        position: static;
+    }
+    .buttons3 {
+        width: 7rem;
+        display: block;
+        margin-left: 1.4rem;
+        margin-top: 4.3rem;
+        margin-bottom: 0rem;
+    }
+    #buttonPlus1 {
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    #buttonPlus2{
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    #buttonMinus1 {
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    #buttonMinus2 {
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    
+    #start {
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    #stop{
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    #reset{
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    #middlePart {
+        display: block;
+        width: 38rem;
+        height: 10rem;
+        margin-left: 10rem;
+        margin-top: -10rem;
+    }
+    
+    #homeTxt {
+        font-size: 27px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+    }
+    #timerTxt{
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    #awayTxt{
+        font-size: 27px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    #periodTxt{
+        margin-top: 2px;
+        margin-bottom: 5px;
+    }
+    #gameTimer {
+        margin-bottom: 14px;
+        margin-top: -5px;
+    }
+    #gamePeriod {
+        margin-top: -8px;
+    }
+    #score1{
+        font-size: 61px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: -2rem;
+    }
+    #score2 {
+        font-size: 61px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: -2.6rem;
+    }
+    #middleOne {
+        background-color: white;
+        display: block;
+        width: 10rem;
+        height: 9rem;
+        margin-left: -8rem;
+        border: 2px solid #020202;
+        border-radius: 28px;
+        margin-top: 4rem;
+        text-align: center;
+    }
+    #middleTwo {
+        background-color: white;
+        display: block;
+        text-align: center;
+        width: 20rem;
+        height: 10rem;
+        margin-left: -5rem;
+        margin-top: 4rem;
+        margin-bottom: 8rem;
+        border: 2px solid black;
+        border-radius: 26px;
+    }
+    #middleThree {
+        background-color: white;
+        border: 2px solid black;
+        text-align: center;
+        border-radius: 26px;
+        width: 19rem;
+        width: 10rem;
+        height: 9rem;
+        margin-left: 8rem;
+        margin-top: -31rem;
+    }
+    #rightWing {
+        background-color: #ffffff;
+        display: block;
+        border: 5px solid #0a0a0a;
+        border-radius: 20px;
+        width: 10rem;
+        height: 6rem;
+        margin-left: 10rem;
+        margin-top: 14rem;
+        text-align: center;
+    }
+}
+
+/* FULL PAGE */
+
+
+@media only screen and (min-width:1178px) {
+    #wrapper {
+        margin: auto;
+        margin-top: 5rem;
+        margin-left: 16rem;
+        width: 73%;
+        height: 20rem;
+        border: 3px solid #21e61e;
+        border-radius: 123px;
+        background-color: black;
+        padding: 10px;
+    }
+    #image {
+        width: 23rem;
+        height: 23rem;
+        margin-left: -12rem;
+        margin-top: -2rem;
+    }
+    
+    #leftWing {
+        display: block;
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    .buttons1 {
+        width: 7rem;
+        display: block;
+        margin-left: 3rem;
+        margin-top: 4.2rem;
+        margin-bottom: 0rem;
+    }
+    .buttons2 {
+        width: 11rem;
+        display: block;
+        margin-left: 2.5rem;
+        margin-top: -1rem;
+        margin-bottom: 0rem;
+    }
+    .buttons3 {
+        width: 7rem;
+        display: block;
+        margin-left: 3rem;
+        margin-top: 5.2rem;
+        margin-bottom: 0rem;
+    }
+    #buttonPlus1 {
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    #buttonPlus2{
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    #buttonMinus1 {
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    #buttonMinus2 {
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    
+    #start {
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    #stop{
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    #reset{
+        font-size: 10px;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: red;
+    }
+    #middlePart {
+        display: block;
+        width: 38rem;
+        height: 10rem;
+        margin-left: 10rem;
+        margin-top: -10rem;
+    }
+    
+    #homeTxt {
+        font-size: 27px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-top: 0rem;
+        margin-bottom: 1rem;
+    }
+    #timerTxt{
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    #awayTxt{
+        font-size: 27px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    #periodTxt{
+        margin-top: 2px;
+        margin-bottom: 5px;
+    }
+    #gameTimer {
+        margin-bottom: 14px;
+        margin-top: -5px;
+    }
+    #gamePeriod {
+        margin-top: -8px;
+    }
+    #score1{
+        font-size: 61px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: -2rem;
+    }
+    #score2 {
+        font-size: 61px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: -2.6rem;
+    }
+    #middleOne {
+        background-color: white;
+        display: block;
+        width: 13rem;
+        height: 10rem;
+        margin-left: -3rem;
+        border: 2px solid #020202;
+        border-radius: 28px;
+        margin-top: 4rem;
+        text-align: center;
+    }
+    #middleTwo {
+        background-color: white;
+        display: block;
+        text-align: center;
+        width: 16rem;
+        height: 10rem;
+        margin-left: 10rem;
+        margin-top: -10rem;
+        margin-bottom: 8rem;
+        border: 2px solid black;
+        border-radius: 26px;
+    }
+    #middleThree {
+        background-color: white;
+        border: 2px solid black;
+        text-align: center;
+        border-radius: 26px;
+        width: 19rem;
+        width: 12rem;
+        height: 10rem;
+        margin-left: 26rem;
+        margin-top: -18rem;
+    }
+    #rightWing {
+        background-color: #ffffff;
+        display: block;
+        border: 5px solid #0a0a0a;
+        border-radius: 20px;
+        width: 9rem;
+        height: 6rem;
+        margin-left: 47rem;
+        margin-top: -8rem;
+        text-align: center;
+    }
+    
+}
